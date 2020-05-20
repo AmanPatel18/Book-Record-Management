@@ -1,0 +1,114 @@
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(background.jpg) no-repeat;
+}
+.log-box
+{
+    background: rgba(0, 0, 0, 0.712);
+    color:#fff;
+    width: 320px;
+    height:420px;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    position: absolute;
+    padding: 70px 30px;
+}
+#home
+{
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    right: 15%;
+    top:60px;
+}
+.usrimg
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+}
+h1
+{
+    margin: 5;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+.log-box p
+{
+    position: relative;
+    left: 20px;
+    margin-top:-20px;
+    margin-bottom: 20%;
+    padding: 0;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Cambria;
+    color: #fff;
+}
+.log-box input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 30px;
+
+}
+.log-box input[type="text"], .log-box input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+}
+.log-box input[type="submit"]
+{
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    box-shadow:5px 5px 0px black;
+    height: 40px;
+    position: relative;
+    right: 30px;
+    top:20px;
+}
+.log-box input[type="submit"]:hover
+{
+    box-shadow: 8px 8px 5px black;
+    cursor: pointer;
+}
+th
+{
+    position: relative;
+    left:-10px;
+    top:-10px;
+    font-size: 18px;
+}
+#logout
+{
+    position: absolute;
+    right: 15%; 
+}
+#home:hover
+{
+    width: 43px;
+    height: 43px;
+}
+#logout:hover
+{
+    width: 43px;
+    height: 43px;
+}

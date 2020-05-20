@@ -1,0 +1,89 @@
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(background.jpg) no-repeat;
+}
+.log-box
+{
+    border:10px double black;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.712);
+    color:#fff;
+    width: 320px;
+    height:400px;
+    top:58%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    position: absolute;
+    padding: 70px 30px;
+}
+h3
+{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top:-30px;
+    font-family: Georgia;
+    font-variant:small-caps;
+    color:violet;
+}
+h1
+{
+    margin: 10;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+.log-box h1
+{
+    position: relative;
+    top: -60px;
+    font-family: Arial;
+}
+.mcontent
+{
+    text-decoration: none;
+    color: #fff;
+    font-size:30px;
+    font-family: Georgia;
+}
+#i1
+{  
+    position: relative;
+    top: -50px;
+}
+#i2
+{  
+    position: relative;
+    top: -40px;
+}
+#i3
+{  
+    position: relative;
+    top: -30px;
+}
+#i4
+{  
+    position: relative;
+    top: -20px;
+}
+.mcontent:hover
+{
+    font-size: 32px;
+    color: violet;
+    cursor: pointer;
+}
+#logout
+{
+    position: absolute;
+    right: 15%; 
+}
+#logout:hover
+{
+    width: 43px;
+    height: 43px;
+}
