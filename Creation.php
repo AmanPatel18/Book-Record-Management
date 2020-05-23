@@ -3,7 +3,8 @@ $username=$_POST['username'];
 $password=$_POST['password'];
 $con=mysqli_connect('localhost','root','','BRM','3308');
 mysqli_select_db($con,'BRM');
-$q="insert into User values('$username','$password')";
+$hash=password_hash($password,PASSWORD_DEFAULT);
+$q="insert into User values('$username','$hash')";
 $status=mysqli_query($con,$q);
 mysqli_close($con);
 ?>
