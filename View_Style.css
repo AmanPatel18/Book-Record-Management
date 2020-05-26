@@ -14,6 +14,7 @@ body
 {
     color: black;
     position: absolute;
+    top:200px;
     left:350px;
     text-align: center;
     border:3px solid black;
@@ -54,4 +55,34 @@ body
 {
     width: 43px;
     height: 43px;
+}
+#search
+{
+    position: relative;
+    left: 38%;
+    height: 35px;
+    width: 250px;
+    font-size: 15px;
+    outline: none;
+    background-color:palevioletred;
+    border: 2px solid black;
+    padding: 5px;
+    color: black;
+
+}
+#sbtn
+{
+    position: relative;
+    left: 38.5%;
+    height: 30px;
+    font-size: 18px;
+    outline: none;
+    background-color:indianred;
+    border: 2px solid black;
+}
+#sbtn:hover
+{
+    height: 32px;
+    font-size: 19px;
+    box-shadow: 3px 3px 5px black;
 }
